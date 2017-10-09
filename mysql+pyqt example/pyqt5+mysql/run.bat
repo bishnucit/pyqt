@@ -1,0 +1,1 @@
+python -m PyQt5.uic.pyuic -x DB_window.ui -o db_win.py
