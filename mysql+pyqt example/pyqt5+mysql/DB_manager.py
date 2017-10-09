@@ -11,7 +11,7 @@ class DatabaseUtility:
 		self.db = database
 		self.tableName = tableName
 
-		f = open('C:\\Users\\bishn\\Desktop\\python\\pyqt\\mysql+pyqt example\\LLP_026_MySQL_PyQt_Example-master\\password.txt', 'r')
+		f = open('C:\\Users\\bishn\\Desktop\\python\\pyqt\\mysql+pyqt example\\pyqt5+mysql\\password.txt', 'r')
 		p = f.read(); f.close();
 		self.cnx = mysql.connector.connect(user = 'root',
 									password = p,
